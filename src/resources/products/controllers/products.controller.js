@@ -2,12 +2,6 @@ import { ProductModel } from '../models/products.model.js'
 import validateCreateProductBody from '../validators/products.validators.js'
 
 
-// export const createProduct = async ( req, res ) => {
-//   const body = req.body
-//   const newProduct = await ProductModel.create( body )
-//   res.json( newProduct )
-// }
-
 export const createProduct = async ( req, res ) => {
   const body = req.body
   try{

@@ -12,7 +12,6 @@ const orderSchema = new mongoose.Schema( {
   } ]
 }, { timestamps: true } )
 
-// Se crea la instancia del modelo.
 export const OrderModel = new mongoose.model( 'Order', orderSchema )
 
 

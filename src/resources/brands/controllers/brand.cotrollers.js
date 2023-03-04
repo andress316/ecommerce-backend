@@ -1,5 +1,4 @@
-// const products = []
-// const brands = []
+
 
 import { BrandModel } from "../models/brand.model.js"
   
